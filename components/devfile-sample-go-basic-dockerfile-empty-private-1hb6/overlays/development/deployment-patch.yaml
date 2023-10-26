@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-go-basic-dockerfile-empty-private-1hb6
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio-qe/rhtap-demo-ohge-tenant/mc-golang-without/devfile-sample-go-basic-dockerfile-empty-private-1hb6@sha256:39b86f033cfe688ee5723833c2bee656c4661754a4bc04ab495ba3942727ca89
+        name: my-go
+        resources: {}
+status: {}
